@@ -71,8 +71,8 @@ add_two_numbers(4,3)
 # 2.3. PACKAGE: Extension to R. Can contains functions and data to provide additional functionality. 
 # Can be installed by the the user usually via a centralised software repository such as CRAN
 # to be loaded on top of the script
-# dplyr package has functions to easily manipulate data tables : https://github.com/rstudio/cheatsheets/blob/main/data-transformation.pdf
-# ggplot package has functions to plot data  : https://github.com/rstudio/cheatsheets/blob/main/data-visualization.pdf
+# dplyr package has functions to easily manipulate data tables : https://dplyr.tidyverse.org
+# ggplot2 package has functions to plot data  : https://ggplot2.tidyverse.org
 install.packages("dplyr") #install the dplyr package 
 library(dplyr)            #use the dplr package
 
