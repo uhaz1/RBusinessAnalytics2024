@@ -17,12 +17,15 @@ library(RColorBrewer)
 ## Reuters data:  http://disi.unitn.it/moschitti/corpora.htm
 # Reuters21578-Apte-115Cat
 
+# unzip zip file
+unzip("./4_text_mining/data/Reuters21578-Apte-115Cat.zip", exdir="./4_text_mining/data/")
+
 options(stringsAsFactors = FALSE)
 
 # Trainig Data for Trade and MoneyFx categories
 
-trade.directory <- "./data/Reuters21578-Apte-115Cat/training/trade"
-moneyfx.directory <- "./data/Reuters21578-Apte-115Cat/training/money-fx"
+trade.directory <- "./4_text_mining/data/Reuters21578-Apte-115Cat/training/trade"
+moneyfx.directory <- "./4_text_mining/data/Reuters21578-Apte-115Cat/training/money-fx"
 
 
 ?Corpus
